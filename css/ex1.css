@@ -1,0 +1,33 @@
+.header {
+    text-align: center;
+    
+}
+
+
+.heightResult {
+    background-color: skyblue;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid #dddddd;
+    width: 500px;
+}
+
+.weightResult {
+    background-color: skyblue;
+    padding: 20px;
+    margin: 0;
+    display: block;
+    height: 30px;
+    width: 20px;
+   
+
+}
+
+.bmiResult {
+    background-color: skyblue;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    height: 30px;
+    width: 20px;
+}

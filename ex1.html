@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <script>
+
+        var a = prompt("성별", "남자/여자로 입력");
+        var b = prompt("키(m단위,cm적으시면 자동변환됩니다)");
+        var c = prompt("체중을 입력하세요");
+
+        b = b / 100;
+
+        var BMI = c / (b * b);
+
+        if (a == "남자") {
+            document.write("BMI 지수는" + BMI + "남자기준입니다<br>")
+            if (BMI < 20.0)
+                document.write("저체중 혹시 존경하는 인물이 간디 아니시죠? JON na 많이드십쇼");
+            else if (BMI < 25.0)
+            document.write("정상입니다.좋으건 골라 드시나봐요?관리를 JON na 잘하셨군요");
+            else
+            document.write("과체중 곧 김정은이 될거같습니다.<br>")
+        }
+        if (a == "여자"){
+         document.write("BMI 지수는" + BMI + "여자 기준입니다<br>")
+            if (BMI < 18.5)
+                document.write("저체중 많이드십쇼");
+            else if (BMI < 22.0)
+            document.write("정상입니다.좋은건 골라 드시나봐요? 관리를 JON na 잘하셨군요");
+            else
+            document.write("과체중 곧 김정은이 될거같습니다.<br>")
+        }
+    </script>
+</body>
+
+</html>
